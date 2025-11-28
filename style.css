@@ -1,0 +1,118 @@
+ .body{
+            margin: 0;
+        }
+
+        .header{
+            background-color: rgb(145, 26, 26);
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 10px 50px;
+            border: 2px black solid;
+        }
+
+        .photos{
+            width: 200px;
+            margin: 0;
+        }
+
+        .header-links a{
+            text-decoration: none;
+            color: white;
+            padding: 0 15px;
+            border-radius: 15px;
+        }
+
+        .header-links a:hover{
+        background-color: #f88989fa;
+        }
+        
+
+        .header-links button{
+             background-color:  rgb(80, 4, 4);
+             border: none;
+             color: #ffffff;
+             border-radius: 15px;
+             padding: 5 15px;
+        }
+
+        .header-links button:hover{
+            background-color: #f88989fa;   
+        }
+
+        .landing-page{
+            background-color: rgb(145, 26, 26);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+            color: #ffffff;
+            border-radius: 0 0 50px 50px;
+        }
+
+        .landing-page-search input{
+            border-radius: 50px;
+            border: none;
+            outline: none;
+            height: 30px;
+            padding: 0 10px;
+        }
+
+        .new-button{
+            background-color:  rgb(80, 4, 4);
+             border: none;
+             color: #ffffff;
+             border-radius: 15px;
+             height: 30px;
+             width: 100px;
+        }
+
+        .new-button:hover{
+            background-color: #f88989fa;
+        }
+
+        .trending-container{
+        padding: 25px 50px;
+        }
+
+        .trending-container span {
+            color: #741e1efa;
+            text-transform: uppercase;
+        }
+        
+        .TrendingHeader{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .TrendingHeader h1 {
+            margin-top: 0px;
+        }
+
+        .trending-cards{
+            display: flex;
+            gap: 12px;
+        }
+        
+        .card{
+            width: 300px;
+        }
+
+        .card .thumb{
+            border-radius: 20px;
+            height: 250px;
+        }
+
+        .card-info{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #ffffff;
+            margin-top: 0px;
+            padding: 5px 25px;
+        }
+        
+        .card-info img{
+            width: 50px;
+        }
